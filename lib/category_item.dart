@@ -18,7 +18,10 @@ class CategoryItem extends StatelessWidget {
         // cho thẻ Column, Alignment theo chiều X chiều Y dựa vào center
         children: <Widget>[
           //Now change font's family from "Google Fonts"
-          Text(this.category.content, style: Theme.of(context).textTheme.title),
+          Text(this.category.content,
+              style: Theme.of(context)
+                  .textTheme
+                  .title), // bây giờ là font sunshiney
         ],
       ),
       decoration: BoxDecoration(
