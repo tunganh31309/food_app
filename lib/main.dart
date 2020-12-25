@@ -9,7 +9,17 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Food App with Navigation',
-      theme: ThemeData(primarySwatch: Colors.cyan),
+      theme: ThemeData(
+          primarySwatch: Colors.cyan,
+          fontFamily: 'Langar',
+          textTheme: ThemeData.light().textTheme.copyWith(
+              body1: TextStyle(color: Color.fromRGBO(20, 52, 52, 1)),
+              body2: TextStyle(color: Color.fromRGBO(20, 52, 52, 1)),
+              title: TextStyle(
+                fontSize: 28,
+                color: Colors.white,
+                fontFamily: 'Sunshiney',
+              ))),
       home: Scaffold(
           appBar: AppBar(
 //          centerTitle: false,
