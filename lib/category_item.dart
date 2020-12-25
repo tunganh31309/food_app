@@ -26,7 +26,9 @@ class CategoryItem extends StatelessWidget {
          */
         //Are there another way to send parameters ? Yes !, Use RouteNames
         Navigator.pushNamed(context, '/FoodsPage', // màn hình mới tên FoodsPage
-            arguments: {'category': category});
+            arguments: {
+              'category': category
+            }); //'/FoodsPage' is "route's name", donot save like this, let's use a "static variable"
       },
       splashColor: Colors.deepPurple, // màu nó nháy lên khi bấm vào item
       child: Container(
