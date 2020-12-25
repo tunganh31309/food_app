@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:food_app/models/category.dart';
 
-// ignore: must_be_immutable
 class CategoryItem extends StatelessWidget {
   //1 categoryItem - 1 category object
   //  1 cái categoryItem tương ứng với 1 một object
@@ -9,6 +8,7 @@ class CategoryItem extends StatelessWidget {
   CategoryItem({this.category}); // Định nghĩa thuộc tính Category
   @override
   Widget build(BuildContext context) {
+    // TODO: implement build
     Color _color = this.category.color;
     return Container(
         child: Container(
