@@ -15,6 +15,7 @@ class CategoryItem extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.center,
         mainAxisAlignment: MainAxisAlignment.center,
+        // cho thẻ Column, Alignment theo chiều X chiều Y dựa vào center
         children: <Widget>[
           Text(this.category.content,
               style: TextStyle(
