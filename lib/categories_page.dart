@@ -16,8 +16,8 @@ class CategoriesPage extends StatelessWidget {
       gridDelegate: SliverGridDelegateWithMaxCrossAxisExtent(
           maxCrossAxisExtent: 300, // chiều rộng max
           childAspectRatio: 3 / 2, // tỉ lệ giữa chiều rộng chia chiều cao
-          crossAxisSpacing: 10, // độ rộng các lưới theo chiều dọc chiều ngang
-          mainAxisSpacing: 10),
+          crossAxisSpacing: 12, // độ rộng các lưới theo chiều dọc chiều ngang
+          mainAxisSpacing: 12),
     );
   }
 }
