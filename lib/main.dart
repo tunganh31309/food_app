@@ -16,6 +16,7 @@ class MyApp extends StatelessWidget {
             title: const Text('Food\'s categories'),
           ),
           body: SafeArea(
+            // SafeArea khỏi bị xòe
             child: CategoriesPage(),
           ) // trang hiện danh sách category
           ),
