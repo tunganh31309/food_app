@@ -26,10 +26,14 @@ class CategoryItem extends StatelessWidget {
       decoration: BoxDecoration(
           gradient: LinearGradient(
               colors: [_color.withOpacity(0.8), _color],
+              // Gradient là biến thiên biến đổi từ màu A => màu B
               begin: Alignment.topRight,
               end: Alignment.bottomLeft),
           color: _color,
+          // màu color theo chiều bắt đầu topRight và kết thích là bottomLeft
+          // _color là chủ dùng riêng trong class này
           borderRadius: BorderRadius.circular(20)),
+      // BoxDecoration liên quan đến hình dáng container
     ));
   }
 }
