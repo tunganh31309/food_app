@@ -11,7 +11,7 @@ class CategoryItem extends StatelessWidget {
   Widget build(BuildContext context) {
     Color _color = this.category.color;
     return InkWell(
-      // InkWell có thể bấm(onTap) như Bottom
+      // InkWell có thể bấm(onTap) như Bottom 
       onTap: () {
         print('tapped to category: ${this.category.content}');
         //Navigate to another page
