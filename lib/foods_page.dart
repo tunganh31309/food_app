@@ -77,7 +77,7 @@ class FoodsPage extends StatelessWidget {
                       child: Row(
                         children: <Widget>[
                           Text(
-                            '${food.complexity.toString().split('.').last}',
+                            '${food.complexity.toString().split('.').last}', // độ khó của món ăn
                             style: TextStyle(fontSize: 22, color: Colors.black),
                           ),
                         ],
@@ -94,7 +94,7 @@ class FoodsPage extends StatelessWidget {
                         borderRadius: BorderRadius.circular(10),
                       ),
                       child: Text(
-                        '${food.name}',
+                        '${food.name}', // tên món ăn
                         style: TextStyle(fontSize: 30, color: Colors.white),
                       ),
                     ),
