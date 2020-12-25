@@ -4,6 +4,7 @@ A new Flutter project.
 
 ## Getting Started
 ![alt](assets/image/loading.gif)
+![alt](./assets/image/Khi chọn thực đơn không có.PNG)
 This project is a starting point for a Flutter application.
 
 A few resources to get you started if this is your first Flutter project:
