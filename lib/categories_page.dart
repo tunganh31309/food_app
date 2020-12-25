@@ -4,6 +4,7 @@ import 'package:food_app/fake_data.dart';
 
 class CategoriesPage extends StatelessWidget {
   // class CategoriesPage kế thừa từ thẻ  StatelessWidget
+  static const String routeName = '/CategoriesPage';
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
