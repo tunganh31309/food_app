@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
 class CategoriesPage extends StatelessWidget {
+   // class CategoriesPage kế thừa từ thẻ  StatelessWidget
+  // Vì trong này danh sách này không thêm sửa xóa
   @override
   Widget build(BuildContext context) {
     return GridView(
