@@ -5,6 +5,7 @@ A new Flutter project.
 ## Getting Started
 ![alt](assets/image/loading.gif)
 ![alt](./assets/image/Untitled.png)
+![alt](./assets/image/tempsnip.png)
 This project is a starting point for a Flutter application.
 
 A few resources to get you started if this is your first Flutter project:
